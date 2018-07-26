@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ViewController2.swift
 //  scenekit test
 //
 //  Created by Daniele Citi on 21/06/18.
@@ -9,54 +9,49 @@
 import UIKit
 import SceneKit
 
-class ViewController: UIViewController, SCNSceneRendererDelegate {
-
-    @IBOutlet weak var scnView: SCNView!
+class ViewController2: UIViewController, SCNSceneRendererDelegate {
     
-    weak var camera: SCNNode!
+    @IBOutlet weak var scnView: SCNView!
     
     var tap:UITapGestureRecognizer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
-        let scena1 = SCNScene(named: "scena1.scn")
+
+        let scena2 = SCNScene(named: "scena2.scn")
         
-        scnView.scene = scena1
+        scnView.scene = scena2
         scnView.delegate = self
         
-        camera = scena1?.rootNode.childNode(withName: "camera", recursively: true)!
-        
         tap = UITapGestureRecognizer(target: self, action: #selector(handleTap(_:)))
-       tap.numberOfTapsRequired = 1
+        tap.numberOfTapsRequired = 1
         scnView.addGestureRecognizer(tap)
     }
-    
+
     func renderer(_ renderer: SCNSceneRenderer, updateAtTime time: TimeInterval) {
         
-    ///    print("Ciao sono la scena1!")
+      //  print("sono la scena2!")
     }
   
     @objc func handleTap(_: UITapGestureRecognizer)
     {
-        performSegue(withIdentifier: "segue", sender: self)
+        performSegue(withIdentifier: "segue2", sender: self)
+    }
+    
+    deinit {
+        print("deinit called")
     }
     
     override func viewDidDisappear(_ animated: Bool) {
-       
+    
         scnView.removeGestureRecognizer(tap)
-        camera = nil
         scnView.scene = nil
         scnView.delegate = nil
         scnView = nil
+
         for sbw in self.view.subviews
         {
             sbw.removeFromSuperview()
         }
     }
-    
-    deinit {
-        print("ok")
-    }
 }
-
