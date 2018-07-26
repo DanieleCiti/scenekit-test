@@ -4,7 +4,7 @@
 //
 //  Created by Daniele Citi on 21/06/18.
 //  Copyright © 2018 Daniele Citi. All rights reserved.
-//
+// // 
 
 import UIKit
 import SceneKit
@@ -16,6 +16,7 @@ class ViewController: UIViewController, SCNSceneRendererDelegate {
     weak var camera: SCNNode!
     
     var tap:UITapGestureRecognizer!
+    var vc2 = ViewController2()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,20 +40,8 @@ class ViewController: UIViewController, SCNSceneRendererDelegate {
   
     @objc func handleTap(_: UITapGestureRecognizer)
     {
-        performSegue(withIdentifier: "segue", sender: self)
-    }
-    
-    override func viewDidDisappear(_ animated: Bool) {
+        performSegue(withIdentifier: "segue1", sender: self)
        
-        scnView.removeGestureRecognizer(tap)
-        camera = nil
-        scnView.scene = nil
-        scnView.delegate = nil
-        scnView = nil
-        for sbw in self.view.subviews
-        {
-            sbw.removeFromSuperview()
-        }
     }
     
     deinit {

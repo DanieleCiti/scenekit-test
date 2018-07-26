@@ -33,7 +33,7 @@
                     </view>
                     <connections>
                         <outlet property="scnView" destination="fgH-QI-JMJ" id="vbD-Gx-hcL"/>
-                        <segue destination="JnR-lp-Oge" kind="presentation" identifier="segue" id="bdz-2l-RSn"/>
+                        <segue destination="JnR-lp-Oge" kind="show" identifier="segue1" id="2z3-K8-vIM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -63,7 +63,6 @@
                     </view>
                     <connections>
                         <outlet property="scnView" destination="D78-P0-Hxj" id="RZv-7N-35w"/>
-                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="segue2" id="sf8-Zi-WP9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1mc-Ji-fU1" userLabel="First Responder" sceneMemberID="firstResponder"/>

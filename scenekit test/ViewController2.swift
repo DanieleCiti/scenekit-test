@@ -35,7 +35,7 @@ class ViewController2: UIViewController, SCNSceneRendererDelegate {
   
     @objc func handleTap(_: UITapGestureRecognizer)
     {
-        performSegue(withIdentifier: "segue2", sender: self)
+        dismiss(animated: true, completion: nil)
     }
     
     deinit {
