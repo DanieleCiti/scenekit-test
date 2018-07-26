@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3E4ED41C20DC2AF70061D722"
-               BuildableName = "scenekit test.app"
-               BlueprintName = "scenekit test"
-               ReferencedContainer = "container:scenekit test.xcodeproj">
+               BuildableName = "scenekit test update.app"
+               BlueprintName = "scenekit test update"
+               ReferencedContainer = "container:scenekit test update.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3E4ED41C20DC2AF70061D722"
-            BuildableName = "scenekit test.app"
-            BlueprintName = "scenekit test"
-            ReferencedContainer = "container:scenekit test.xcodeproj">
+            BuildableName = "scenekit test update.app"
+            BlueprintName = "scenekit test update"
+            ReferencedContainer = "container:scenekit test update.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3E4ED41C20DC2AF70061D722"
-            BuildableName = "scenekit test.app"
-            BlueprintName = "scenekit test"
-            ReferencedContainer = "container:scenekit test.xcodeproj">
+            BuildableName = "scenekit test update.app"
+            BlueprintName = "scenekit test update"
+            ReferencedContainer = "container:scenekit test update.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3E4ED41C20DC2AF70061D722"
-            BuildableName = "scenekit test.app"
-            BlueprintName = "scenekit test"
-            ReferencedContainer = "container:scenekit test.xcodeproj">
+            BuildableName = "scenekit test update.app"
+            BlueprintName = "scenekit test update"
+            ReferencedContainer = "container:scenekit test update.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

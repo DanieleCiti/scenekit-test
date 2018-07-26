@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3E4ED41D20DC2AF70061D722 /* scenekit test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "scenekit test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4ED41D20DC2AF70061D722 /* scenekit test update.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "scenekit test update.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E4ED42020DC2AF70061D722 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E4ED42220DC2AF70061D722 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3E4ED42520DC2AF70061D722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		3E4ED41E20DC2AF70061D722 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3E4ED41D20DC2AF70061D722 /* scenekit test.app */,
+				3E4ED41D20DC2AF70061D722 /* scenekit test update.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3E4ED41C20DC2AF70061D722 /* scenekit test */ = {
+		3E4ED41C20DC2AF70061D722 /* scenekit test update */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E4ED42F20DC2AF80061D722 /* Build configuration list for PBXNativeTarget "scenekit test" */;
+			buildConfigurationList = 3E4ED42F20DC2AF80061D722 /* Build configuration list for PBXNativeTarget "scenekit test update" */;
 			buildPhases = (
 				3E4ED41920DC2AF70061D722 /* Sources */,
 				3E4ED41A20DC2AF70061D722 /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = "scenekit test";
+			name = "scenekit test update";
 			productName = "scenekit test";
-			productReference = 3E4ED41D20DC2AF70061D722 /* scenekit test.app */;
+			productReference = 3E4ED41D20DC2AF70061D722 /* scenekit test update.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3E4ED41820DC2AF70061D722 /* Build configuration list for PBXProject "scenekit test" */;
+			buildConfigurationList = 3E4ED41820DC2AF70061D722 /* Build configuration list for PBXProject "scenekit test update" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3E4ED41C20DC2AF70061D722 /* scenekit test */,
+				3E4ED41C20DC2AF70061D722 /* scenekit test update */,
 			);
 		};
 /* End PBXProject section */
@@ -327,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3E4ED41820DC2AF70061D722 /* Build configuration list for PBXProject "scenekit test" */ = {
+		3E4ED41820DC2AF70061D722 /* Build configuration list for PBXProject "scenekit test update" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E4ED42D20DC2AF80061D722 /* Debug */,
@@ -336,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E4ED42F20DC2AF80061D722 /* Build configuration list for PBXNativeTarget "scenekit test" */ = {
+		3E4ED42F20DC2AF80061D722 /* Build configuration list for PBXNativeTarget "scenekit test update" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E4ED43020DC2AF80061D722 /* Debug */,
