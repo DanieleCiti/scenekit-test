@@ -41,17 +41,5 @@ class ViewController2: UIViewController, SCNSceneRendererDelegate {
     deinit {
         print("deinit called")
     }
-    
-    override func viewDidDisappear(_ animated: Bool) {
-    
-        scnView.removeGestureRecognizer(tap)
-        scnView.scene = nil
-        scnView.delegate = nil
-        scnView = nil
-
-        for sbw in self.view.subviews
-        {
-            sbw.removeFromSuperview()
-        }
-    }
+   
 }
